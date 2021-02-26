@@ -24,6 +24,7 @@ body{
   justify-content: center;
   align-items: center;
   padding: 10px;
+  cursor: pointer;
 }
 .logoMenu img {
   width: 100%;
@@ -37,7 +38,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 30px;  
+    padding-right: 30px;
+    cursor: pointer;  
 }
  
 .login img {
@@ -55,7 +57,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 30px; 
+    padding-right: 30px;
+    cursor: pointer; 
 }
 
 /* list Menu Chính */
@@ -66,7 +69,8 @@ body{
     justify-content:center;
     align-items: center;
     width: 100%;
-    padding-left: 150px; 
+    padding-left: 150px;
+    cursor: pointer; 
 }
 .thanhMenu ul{
     display: flex;
@@ -83,29 +87,36 @@ body{
     position: relative;
 }
 .sub {
+    display: flex;
+    flex-direction: column;
     width: 200px; 
     border-radius: 2%;
     border: 1px solid #d8d8d8;
-    background-color: #fff;  
+    background-color: #fff;
+    text-align: center;  
 }
 .sub li {
     color: #34465c;
     padding: 12px 16px 12px 16px;
-}
-.subMenu1{
-    display: flex;
-    flex-direction: column;
+    text-transform: none; 
+} 
+.subMenu1{ 
     position: absolute;
-    top: 59px;
+    top: 55px;
     left: 44px;
 }
-.subMenu2{
-    display: flex;
-    flex-direction: column;
+.subMenu2{ 
     position: absolute;
-    top: 59px;
+    top: 55px;
     right: 10px;
 }
-.sub{
+.sub li {
     display: none;
 }
+.thanhMenu li:hover { 
+    color: #9e9e9e;
+}
+.thanhMenu li:hover .sub li{
+    display: block;
+} 
+
