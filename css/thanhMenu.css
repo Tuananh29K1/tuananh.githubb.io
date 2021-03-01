@@ -63,13 +63,13 @@ body{
 
 /* list Menu Chính */
 .thanhMenu{
+    width: 100%;
     text-transform: uppercase;
     color: #fff;
     display: flex;
-    justify-content:center;
+    justify-content:flex-end;
     align-items: center;
-    width: 100%;
-    padding-left: 150px;
+    width: 100%; 
     cursor: pointer; 
 }
 .thanhMenu ul{
@@ -78,7 +78,7 @@ body{
 }
 .thanhMenu li{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     padding:0 10px 0 10px;
     list-style-type: none;     
 }
@@ -105,7 +105,7 @@ body{
 .subMenu1{ 
     position: absolute;
     top: 55px;
-    left: 44px;
+    left: 88px;
 }
 .subMenu2{ 
     position: absolute;
