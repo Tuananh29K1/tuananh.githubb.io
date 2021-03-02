@@ -1,53 +1,114 @@
-body {
-  background-color: green;
+*{
+  margin: 0;
+  padding: 0;
 }
-.boxMenu {
-  background-color: #ffffff;
-  width: 200px;
-  height: 344px;
-  padding: 8px 0px 12px;
-  position: relative;
+body { 
+  box-sizing: border-box;
+  background-color: brown;
+  padding: 50px;  
 }
-.boxMenu ul {
-  margin: auto;
+#container{
+  background-color: #fff;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  font-size: 14px;
+  width:1240px;
+  height: 450px;
+  display: flex;
+  position: relative; 
 }
-.boxMenu ul li {
+.image{
+  width: 1040px;
+  height: 100%;
+  overflow: hidden;
+}
+.image > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+ul.Menu {
+  width: 220px;
+  height: 100%;
   list-style-type: none;
-}
-.boxMenu a {
+  background-color: #fff;
+  line-height: 30px;
+  position: relative;
+  box-shadow: 3px 2px rgba(219, 219, 219, 0.788); 
+} 
+ul.Menu > li > a{
+  padding:2px 0 2px 20px;
+  color: rgb(119, 119, 119);
   text-decoration: none;
-  color: #838383;
-}
-.boxMenu ul li {
-  display: flex;
-}
-.boxMenu li a:hover {
-  color: brown;
-}
-.boxMenu ul li i {
-  margin-left: 20px;
+  display: block; 
+} 
+.clolumn1{
+  float: right;
+  margin-right: 20px;
   display: none;
 }
-
-.boxMenu ul li:hover i {
+.clolumn2{
+  float: right;
+  margin-right: 20px;
+  display: none;
+}
+ul.Menu > li:hover .clolumn1{
   display: block;
 }
-/* ====subMenu==== */
-.boxMenu ul li > .sub-menu {
-  background-color: #ffffff;
-  width: 200px;
-  height: 344px;
-  border: 1px solid #838383;
-  padding: 8px 0px 12px;
+ul.subMenu > li:hover .clolumn2{
+  display: block;
+}
+ul.Menu > li > a:hover{
+  background-color:rgb(119, 119, 119);
+  color: orange;
+}
+ 
+ 
+ul.subMenu{
   position: absolute;
   top: 0;
-  right: -200px;
+  left: 200px;
+  width: 220px;
+  height: 100%;
+  list-style-type: none;
+  background-color: #fff;
   display: none;
+  box-shadow: 3px 2px  rgba(219, 219, 219, 0.788);
 }
-
-.boxMenu ul li:hover .sub-menu {
+ul.subMenu > li >a{
+  padding:2px 0 2px 20px;
+  color: rgb(119, 119, 119);
+  text-decoration: none;
   display: block;
 }
+ul.subMenu > li >a:hover{
+  background-color:rgb(119, 119, 119);
+  color: orange;
+}
+ul.Menu > li:hover .subMenu{
+  display: block;
+} 
+ul.subMenu2{
+  position: absolute;
+  top: 0;
+  left: 210px;
+  width: 220px;
+  height: 100%;
+  list-style-type: none;
+  background-color: #fff;
+  display: none;
+  box-shadow: 3px 2px  rgba(219, 219, 219, 0.788);
+}
+ul.subMenu2 > li >a{
+  padding:2px 0 2px 20px;
+  color: rgb(119, 119, 119);
+  text-decoration: none;
+  display: block;
+}
+ul.subMenu > li:hover .subMenu2{
+  display: block;
+}
+ul.subMenu2 > li >a:hover{
+  background-color:rgb(119, 119, 119);
+  color: orange;
+}  
+ 
