@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+#container {
+  margin: 20px;
+  border: 1px solid #000;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2074a1;
+  padding: 10px;
+  color: #fff;
+}
+.header > p {
+  font-size: 24px;
+  cursor: pointer;
+}
+.boxBody {
+  padding: 18px;
+}
+.box {
+  margin: 18px 0px;
+  background-color: #fefefc;
+}
+
+.grid-container {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.grid-item {
+  background-color: #2074a1;
+  border: 3px solid rgb(255, 255, 255);
+  overflow: hidden;
+}
+.grid-item img {
+  width: 100%;
+}
+.grid-item:hover {
+  transform: scale(1.5, 1.5);
+  border: 3px solid rgb(255, 255, 255);
+}
+
+.heart {
+  text-align: center;
+  font-size: 300px;
+  color: #fe7a74;
+  animation-name: runHeart;
+  animation-duration: 0.4s;
+  animation-iteration-count: infinite;
+}
+@keyframes runHeart {
+  from0 {
+    font-size: 300px;
+  }
+  to {
+    font-size: 320px;
+  }
+}
