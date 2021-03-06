@@ -1,0 +1,106 @@
+#foot{
+    background-color:#fafafa;
+}
+.footer{
+    
+    padding: 50px 140px 100px 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__refer{
+    width: 32%; 
+}
+.footer__conect{
+    width: 16%;
+}
+.footer__contract{
+    width: 24%;
+}
+.footer__facebook{ 
+    width: 24%;
+}
+.footer__title{
+    font-size: 1.7rem;
+    font-weight: 400;
+    
+}
+.footer__refer__img{
+    width: 220px;
+    height: 90px;
+    overflow: hidden;
+}
+.footer__refer__img img{
+    width: 100%; 
+}
+.footer__conect__list{
+    padding: 0;
+    list-style-type: none;
+    line-height: 20px;
+    padding-right: 25px;
+}
+.footer__conect__list li{
+    margin-bottom: 10px;
+}
+.footer__conect__list a{
+    text-decoration: none;
+    color:#686868;
+    font-size: 1.5rem;
+}
+.footer__text{
+    font-size: 1.5rem;
+    color:#686868;
+    line-height: 25px;
+    padding-right: 25px;
+}
+.footer__contract__box{
+    display:flex;
+    align-items: center; 
+}
+.footer__contract__icon i{
+    font-size: 1.6rem;
+    color: #686868;
+    margin-right: 10px;
+}
+.footer__contract__box p{
+    font-size: 1.5rem;
+    color: #686868;
+    line-height: 20px; 
+}
+.footer__end{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 1.5rem;
+    color: #686868; 
+}
+.footer__facebook__box{
+    background-image:linear-gradient(180deg, black, white ) ;
+    height: 135px;
+    overflow: hidden;
+    position: relative; 
+}
+.footer__facebook__box img{
+    width: 100%; 
+    z-index: 20 ; 
+}
+.footer__facebook__box-logo_img{
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 2px solid #fff;
+}
+.footer__facebook__box-logo img{
+    width: 100%;  
+}
+.footer__facebook__box-logo_img-caption{
+    position: absolute;
+    top: 10px;
+    right:100px;
+}
+.footer__facebook__box-logo_img-caption a{
+    font-size: 1.6rem;
+    color: #fff;
+}
+ 

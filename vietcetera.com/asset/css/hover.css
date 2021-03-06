@@ -1,0 +1,27 @@
+ #user:target{
+    visibility: visible;
+}
+#shop:target{
+    visibility: visible;
+}
+.header__menu__button-user__form-button-nohover:hover::before{
+    transform: scaleX(1);
+}
+.header__menu__button-user__form-button-nohover:hover{
+    color:#333;
+}
+.header__menu__button-shop__form-submit-pay-button:hover::before{
+    transform:scaleX(1);
+}
+.header__menu__button-shop__form-submit-goback-button:hover::before{
+    transform:scaleX(1);
+}
+.header__menu__button-shop__form-submit-pay-button:hover{
+    color:#333;
+}
+.header__menu__button-shop__form-submit-goback-button:hover{
+    color: #eb3223; 
+}
+.header__menu__button-user__form-text a:hover{
+    text-decoration: underline;
+} 

@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+#bodyContent{
+    padding-top:100px ; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    padding-right: 32px;
+}
+.formLogin{
+    width: 400px;
+    padding:20px 10px 30px 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+}
+.box{
+    height: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.box > input{
+    width: 100%;
+    height: 100%; 
+    padding: 14px 16px;
+    border-radius: 6px;
+    border: 1px solid rgb(233, 233, 233);
+}
+.box > button{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    border: 1px solid rgb(233, 233, 233);
+}
+.button__login{
+    background-color: #1877f2;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff; 
+} 
+ .formLogin__fogetpass{
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+.formLogin__fogetpass > a{ 
+    text-decoration: none;
+    color:#1877f2 ;
+    font-weight: bolder;
+}
+.formLogin__fogetpass > a:hover{
+    text-decoration: underline;
+}
+.newLogin > button{
+    margin-top: 30px;
+    width: 50%;
+    background-color:#42b72a;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;  
+}
+.newLogin > a{
+    color:#fff;
+    text-decoration: none;
+}
+.captionLogin{
+    margin-top: 30px;
+}
+.captionLogin > a{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(156, 156, 156);
+}
+.captionLogin > p {
+    font-size: 18px;
+    display: inline;
+}
+.captionContent{
+    font-size: 30px;
+}
+.username{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ẩn content */
+#bodyContent{
+    display: none;
+}
+
+  
+/* form Đăng ký */
+.backroundForm{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 240, 221);
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titleForm{
+    line-height: 40px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    margin-bottom: 20px;
+}
+.box1 > input{ 
+    margin: 5px 0 5px 0;
+    height: 100%; 
+    padding: 14px 16px;
+    border-radius: 6px;
+    border: 1px solid rgb(233, 233, 233);
+    background-color: rgba(248, 248, 248, 0.938);
+}
+.username > input{
+    width: 49%;
+}
+.Phone > input{
+    width: 100%;
+}
+.password > input {
+    width: 100%;
+}
+.box2{ 
+    margin-top: 5px;
+    width: 32%;
+    height: 40px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(105, 105, 105);
+    border-radius: 6px;  
+} 
+.gender{
+    margin-top: 5px;  
+    height: 40px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.boxGender{
+    width: 30%;
+    height: 100%; 
+    border: 1px solid rgb(105, 105, 105); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px ;
+    font-size: 16px;
+    border-radius: 6px;
+     
+}
+.textCaption{
+    margin-top: 10px;
+    font-size: 13px;
+}
+.textCaption > p > a{
+    text-decoration: none;
+}
+.textCaption > p > a:hover{
+    text-decoration: underline;
+}
+.title{
+    display:flex; 
+} 
+
+ 
+ 
+ 
