@@ -1,0 +1,25 @@
+.app__navBack{
+    background-color: #f1f1f1;
+    height:40px ;
+    width: 100%;
+    padding: 0px 140px 0px 140px;
+    line-height: 40px;
+}
+.app__navBack a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #333;
+}
+.app__content{
+    padding: 0px 440px 40px 140px;
+}
+.app__content h1{
+    font-size: 3rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.app__content p{
+    font-size: 1.6rem;
+    line-height: 20px;
+    font-weight: 400;
+}
